@@ -1,6 +1,6 @@
 Set objShell = CreateObject("WScript.Shell")
 
-javaCmd = "C:\Program Files\Java\jdk-17\bin\java.exe" -jar "C:\your_path\your_path\your_path\burpsuite_community_v2023.9.1.jar"
+javaCmd = "java -Xbootclasspath/p:""C:\Program Files\Java\jdk1.8.0_202\bin\burp-loader-keygen.jar"" -jar ""C:\Program Files\Java\jdk1.8.0_202\bin\burpsuite_pro_v1.7.37.jar"""
 
 ' Run the Java command
 objShell.Run javaCmd, 0, False
